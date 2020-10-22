@@ -1,4 +1,4 @@
-# Artml
+# ArtML
 
 
 **Artml is a xml based standart for containing articles**
