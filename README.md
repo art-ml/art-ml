@@ -70,7 +70,7 @@ can have followed attributes:
 - h, for defining hegith of an image in pixels **required**
 
 
-    <image>s:api.sveagruva.site/static/thor/1.png</image>
+        <image w="1300" h="1300">s:api.sveagruva.site/static/thor/1.png</image>
     
 
 ### video
@@ -80,15 +80,15 @@ can have followed attributes:
 - w, for defining width of an video in pixels **required**
 - h, for defining hegith of an video in pixels **required**
 
-        <video>s:example.com/video.mp4</video>
+        <video w="1300" h="1300">s:example.com/video.mp4</video>
 
 
 ### slider
 tag can contain only image tags
 
     <slider> 
-        <image>s:api.sveagruva.site/static/thor/1.png</image>
-        <image>s:api.sveagruva.site/static/thor/1.png</image>
+        <image w="1300" h="1300">s:api.sveagruva.site/static/thor/1.png</image>
+        <image w="1300" h="1300">s:api.sveagruva.site/static/thor/1.png</image>
     </slider>
 
 
