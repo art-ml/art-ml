@@ -61,14 +61,26 @@ tag is an item for lists(ul, ol tags). can contain text and tm tags. li tag can 
     </ul>
 
 ### image
-tag contain url to an image, check [this](#url-rules) for url rules
+tag contain url to an image, check [this](#url-rules) for url rules.
+images can be in these formats: png, jpg(jpeg), webp, gif
+
+can have followed attributes:
+
+- w, for defining width of an image in pixels **required**
+- h, for defining hegith of an image in pixels **required**
+
 
     <image>s:api.sveagruva.site/static/thor/1.png</image>
+    
 
 ### video
 tag contain url to a video, check [this](#url-rules) for url rules
+can have followed attributes:
 
-    <video>s:example.com/video.mp4</video>
+- w, for defining width of an video in pixels **required**
+- h, for defining hegith of an video in pixels **required**
+
+        <video>s:example.com/video.mp4</video>
 
 
 ### slider
@@ -103,6 +115,7 @@ mean
 
         https://api.sveagruva.site/static/thor/1.png
         
-for describing resources that have to be transferred another way can be used l protocol
+for describing resources that have to be transferred another way can be used l protocol or any other protocol that you can make yourself that are started with l
         
         l:/base64/image/png/1
+        l_my_protocol:/base64/image/png/1
