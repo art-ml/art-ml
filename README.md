@@ -33,10 +33,10 @@ tag can contain all set of characters (except '<' and '>') and tag tm (which sta
 can have followed attributes. content of them does not matter if other is not specified but it have to be something for example empty string (it's xml standart but worth mentioning)
 
 - strong - symbolaze importance, mainly added because of html
-- src - symbolaze a link, check [this](#url-rules) for url rules
-- bold - symbolaze bold text, can't be applied to elements that already have italic attribute
-- italic - symbolaze italic text, can't be applied to elements that already have bold attribute
-- q - symbolaze quote, contains source of quote(not necessary link), if doesn't have one should have value null q="null"
+- src - makes a link, check [this](#url-rules) for url rules
+- bold - makes bold text, can't be applied to elements that already have strong attribute
+- italic - makes italic text
+- q - makes quote, contains source of quote(not necessary link), if doesn't have one should have value null q="null"
 
       <p> hello friend, <tm bold="anything - jfkasdjasfasdfasdfasdf, this will be ignored"> nice to meet you again </tm></p>
   
