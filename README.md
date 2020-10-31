@@ -33,8 +33,8 @@ tag can contain all set of characters (except '<' and '>') and tag tm (which sta
 can have followed attributes. content of them does not matter if other is not specified but it have to be something for example empty string (it's xml standart but worth mentioning)
 
 - src - makes a link, check [this](#url-rules) for url rules
-- bold - makes bold text, if it's important (<strong> in html) should have "n" inside
-- italic - makes italic text, if it's emphasised (<em> in html) should have "n" inside
+- bold - makes bold text, if it's important (strong in html) should have "n" inside
+- italic - makes italic text, if it's emphasised (em in html) should have "n" inside
 - q - makes quote, contains source of quote. if have to be same as src attribute it should have "a" inside, if doesn't have any source it should have value null q="null" (cite attribute for html)
 
       <p> hello friend, <tm bold="anything - jfkasdjasfasdfasdfasdf, this will be ignored"> nice to meet you again </tm></p>
