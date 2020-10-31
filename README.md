@@ -37,10 +37,10 @@ can have followed attributes. content of them does not matter if other is not sp
 - i - makes italic text, if it's emphasised (em in html) should have "n" inside
 - q - makes quote, contains source of quote. if have to be same as src attribute it should have "a" inside, if doesn't have any source it should have value null q="null" (cite attribute for html)
 
-      <p> hello friend, <tm bold="anything - jfkasdjasfasdfasdfasdf, this will be ignored"> nice to meet you again </tm></p>
-      <tm bold="n"> important</tm>
+      <p> hello friend, <tm b="anything - jfkasdjasfasdfasdfasdf, this will be ignored"> nice to meet you again </tm></p>
+      <tm b="n"> important</tm>
       
-      //<tm bold>text</tm> is INVALID
+      //<tm b>text</tm> is INVALID
 
 
 ### q(quote)
@@ -57,7 +57,7 @@ tags very similar to html version. it can only contain li tags inside.
 tag is an item for lists(ul, ol tags). can contain text and tm tags. li tag can have same attributes as tm tag do except 'q' attribute.
 
     <ul>
-        <li bold="">hello</li>
+        <li b="">hello</li>
     </ul>
 
 ### image
