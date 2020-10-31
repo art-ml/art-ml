@@ -35,7 +35,7 @@ can have followed attributes. content of them does not matter if other is not sp
 - s - makes a link, check [this](#url-rules) for url rules
 - b - makes bold text, if it's important (strong in html) should have "n" inside
 - i - makes italic text, if it's emphasised (em in html) should have "n" inside
-- q - makes quote, contains source of quote. if have to be same as src attribute it should have "a" inside, if doesn't have any source it should have value null q="null" (cite attribute for html)
+- q - makes quote, contains source of quote. if have to be same as src attribute it should have "a" inside, if doesn't have any source it should have empty string as value q="" (cite attribute for html)
 
       <p> hello friend, <tm b="anything - jfkasdjasfasdfasdfasdf, this will be ignored"> nice to meet you again </tm></p>
       <tm b="n"> important</tm>
