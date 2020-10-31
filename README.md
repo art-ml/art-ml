@@ -30,7 +30,8 @@
 tag can contain all set of characters (except '<' and '>') and tag tm (which stands for text modify). p tag can't contain another p tag. It can have same attributes as tm tag do except 'q' attribute
 
 ### tm
-can have followed attributes. content of them does not matter if other is not specified but it have to be something for example empty string (it's xml standart but worth mentioning)
+tm is a text-modificator. It can't have anything inside except of text. modificators are attributes. content of them can be anything, it is not an error.
+can have followed attributes:
 
 - s - makes a link, check [this](#url-rules) for url rules
 - b - makes bold text, if it's important (strong in html) should have "n" inside
