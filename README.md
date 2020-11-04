@@ -31,7 +31,6 @@ tag can contain all set of characters (except '<' and '>') and tag tm (which sta
 
 ### tm
 tm is a text-modificator. It can't have anything inside except of text. modificators are attributes. content of them can be anything, it is not an error.
-can have followed attributes:
 
 - s - makes a link, check [this](#url-rules) for url rules
 - b - makes bold text, if it's important (strong in html) should have "n" inside
@@ -65,8 +64,6 @@ tag is an item for lists(ul, ol tags). can contain text and tm tags. li tag can 
 tag contain url to an image, check [this](#url-rules) for url rules.
 images can be in these formats: png, jpg(jpeg), webp, gif
 
-can have followed attributes:
-
 - w, for defining width of an image in pixels **required**
 - h, for defining hegith of an image in pixels **required**
 - a, for defining text description of an image
@@ -78,7 +75,6 @@ can have followed attributes:
 
 ### video
 tag contain url to a video, check [this](#url-rules) for url rules
-can have followed attributes:
 
 - w, for defining width of an video in pixels **required**
 - h, for defining hegith of an video in pixels **required**
