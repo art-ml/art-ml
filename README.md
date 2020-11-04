@@ -69,6 +69,8 @@ can have followed attributes:
 
 - w, for defining width of an image in pixels **required**
 - h, for defining hegith of an image in pixels **required**
+- a, for defining text description of an image
+- s, for defining url that user should be forwarded when image being clicked. check [this](#url-rules) for url rules
 
 
         <image w="1300" h="1300">s:api.sveagruva.site/static/thor/1.png</image>
