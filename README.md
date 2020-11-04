@@ -97,7 +97,7 @@ tag contains 18 digits otherwise not valid **required**
 - author, include author of a tweet in format with profile(visible) name first and nickname second, divided by 'at' sign
 - content, containing content of a tweet. It works like [p tag](#p)  **optional**
 
-        <tiwtter author="Donald J. Trump@realDonaldTrump" content="USA!!!">123456789012345678</twitter>
+        <twitter author="Donald J. Trump@realDonaldTrump" content="USA!!!">123456789012345678</twitter>
 
 ### yb(youtube)
 tag contains 11 characters otherwise not valid
