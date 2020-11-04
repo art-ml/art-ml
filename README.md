@@ -27,7 +27,7 @@
 ## Elements that can be used in artml
 
 ### p
-tag can contain all set of characters (except '<' and '>') and tag tm (which stands for text modify). p tag can't contain another p tag. It can have same attributes as tm tag do except 'q' attribute
+tag can contain all set of characters (except '<' and '>') and tag tm. p tag can't contain another p tag. P tag itself can have same attributes as tm tag do except 'q' attribute.
 
 ### tm
 tm is a text-modificator. It can't have anything inside except of text. modificators are attributes. content of them can be anything, it is not an error.
@@ -43,15 +43,15 @@ tm is a text-modificator. It can't have anything inside except of text. modifica
       //<tm b>text</tm> is INVALID
 
 
-### q(quote)
-tag contain same set of characters and tags as p tag does. quote tag can have p tag inside, but can't have tm tags with "q" attribute
+### q
+tag contain same set of characters and tags as p tag does. q tag stands for quote and it can have p tag inside, but can't have tm tags with "q" attribute.
 
     <p>They said </p>
     <q>it cannot be done</q>
 
 
 ### ul, ol
-tags very similar to html version. it can only contain li tags inside.
+tags very similar to html version. It can only contain li tags inside.
 
 ### li
 tag is an item for lists(ul, ol tags). can contain text and tm tags. li tag can have same attributes as tm tag do except 'q' attribute.
@@ -74,7 +74,7 @@ images can be in these formats: png, jpg(jpeg), webp, gif
     
 
 ### video
-tag contain url to a video, check [this](#url-rules) for url rules
+tag contain url to a video, check [this](#url-rules) for url rules 
 
 - w, for defining width of an video in pixels **required**
 - h, for defining hegith of an video in pixels **required**
@@ -92,9 +92,12 @@ tag can contain only image tags
 
 
 ### twitter
-tag contains 18 digits otherwise not valid
+tag contains 18 digits otherwise not valid **required**
 
-    <tiwtter>123456789012345678</twitter>
+- author, include author of a tweet in format with profile(visible) name first and nickname second, divided by 'at' sign
+- content, containing content of a tweet. It works like [p tag](#p)  **optional**
+
+        <tiwtter author="Donald J. Trump@realDonaldTrump" content="USA!!!">123456789012345678</twitter>
 
 ### yb(youtube)
 tag contains 11 characters otherwise not valid
