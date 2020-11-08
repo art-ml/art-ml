@@ -54,7 +54,7 @@ tag contain same set of characters and tags as p tag does. q tag stands for quot
 tags very similar to html version. It can only contain li tags inside.
 
 ### li
-tag is an item for lists(ul, ol tags). can contain text and tm tags. li tag can have same attributes as tm tag do except 'q' attribute.
+tag is an item for lists(ul, ol tags). can contain text and tm tags. li tag can have same attributes as tm tag do.
 
     <ul>
         <li b="">hello</li>
